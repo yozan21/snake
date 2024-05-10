@@ -3017,7 +3017,7 @@ var Circle = /*#__PURE__*/function () {
 }();
 var circles = [];
 for (var i = 0; i < 500; i++) {
-  circles.push(new Circle(-200, -200, 10, "hsl(".concat(255 * (i / 500), ", 50%, 50%)"), Math.random() * 2));
+  circles.push(new Circle(-200, -200, 10, "hsl(".concat(289 * (i / 500), ", 50%, 50%)"), Math.random() * 2));
 }
 var time1 = 0;
 var time2 = 0;
